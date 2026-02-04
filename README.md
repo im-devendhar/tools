@@ -246,7 +246,7 @@ test
 
 # -----------------------------------------
 # **10. SonarQube**
-
+### ✔ Install
 ### ✔ Run using Docker
 ```bash
 docker run -d --name sonarqube -p 9000:9000 sonarqube:lts
