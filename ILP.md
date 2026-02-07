@@ -41,8 +41,10 @@ docker ps
 ###  JFrog Artifactory (Docker Container)
 
 ```bash
-docker start artifactory
-docker ps
+sudo systemctl status artifactory
+sudo systemctl start artifactory
+sudo systemctl restart artifactory
+sudo systemctl enable artifactory
 ```
 
 ---
